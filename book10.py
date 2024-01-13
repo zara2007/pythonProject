@@ -1,0 +1,6 @@
+a,b=map(int,input().split())
+print("sum=",a+b)
+print("aiyrymy=",a-b)
+print("kobeityndysy=",a*b)
+print("kvadraty1=",int(a**2))
+print("kvadraty2=",int(b**2))
