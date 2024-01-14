@@ -1,7 +1,9 @@
 array = []
 n = int(input())
-
+k = 0
+bar_ma = False
 for i in range(n):
     array.append(int(input()))
-    otvet = array[i]>0
-    print(otvet)
+    if array[i] > 0:
+        bar_ma = True
+print(bar_ma)
