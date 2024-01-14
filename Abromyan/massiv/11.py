@@ -1,8 +1,9 @@
 array = []
-n,k = int(input())
-
-
+n = int(input())
+k = int(input())
+bar_ma = False
 for i in range(n):
-    array.append(float(input()))
-    sum+=(array[i])//1
-print(sum)
+    array.append(int(input()))
+    if array[i] < k:
+        bar_ma = True
+print(bar_ma)
